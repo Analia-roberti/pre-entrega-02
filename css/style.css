@@ -463,14 +463,14 @@ h1{
             background-color: #3b5d50;
             }
 
-            /*responsive 768 cards-sección shop*/
+            /*responsive 768px cards-sección shop*/
 
             .sillas{
                 display: grid;
                 grid-template-columns: 100%;
                 justify-content: center;
                 align-items: center;
-                gap: 20px;
+                gap: 150px;
                 }
             
             .sillones{
@@ -478,23 +478,26 @@ h1{
                     grid-template-columns: 100%;
                     justify-content: center;
                     align-items: center;
-                    gap: 20px;
+                    gap: 150px;
                 }
                 
             .img-sillonblanco{
-                    width: 100%;
+                    width: 40%;
                 }
             .img-sillongris{
-                    width: 100%;
+                    width: 40%;
                 }
         
             .img-sillonbeige{
-                    width: 100%;
+                    width: 40%;
                 }
         
             .img-sillonrojo{
-                    width: 100%;
+                    width: 40%;
                 }
+
+/*responsive 768px sección contacto*/
+
             .contacto{
                 display: flex;
                 flex-direction: row;
