@@ -1,0 +1,27 @@
+/*style header*/
+
+.header{
+    background-color: #3b5d50;
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+    .navbar-brand{
+        background-color: #3b5d50;
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        color: #FFF; 
+    }
+    .loguin{
+        width: 20px;
+        height: 20px;
+        align-items: center;
+        }
+    
+    .carrito{
+        width: 20px;
+        height: 20px;
+        align-items: center;
+    }
+    
+}

@@ -1,0 +1,53 @@
+/* style About Us*/
+.about-us{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 50px;
+    .conteinter-about{
+        section{ 
+            text-align: center;
+            text-align: justify;
+            margin-left: 20px;
+            h2{
+                font-family: "sans";
+                font-size: 30px;
+            }
+            p{
+                font-family: "sans-thin";
+                font-size: 20px;
+            }
+        } 
+        .img-about1{
+            width: 300px;
+            padding-right: 80px;
+        }
+        .img-about2{
+            width: 300px;
+            padding-right: 80px;
+            position: relative;
+            top: 50px;
+            right: 50px;
+        } 
+    }
+}
+.por-que-elegirnos{
+    font-family: "sans";
+    font-size: 30px;
+    margin: 70px;
+    .elegirnos{
+        font-family: "sans-thin";
+        font-weight: bold;
+        font-size: 20px;
+        list-style: none;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 30px;
+        .img-elegirnos{
+            width: 80px;
+            height: 80px;
+        }
+    }
+}
