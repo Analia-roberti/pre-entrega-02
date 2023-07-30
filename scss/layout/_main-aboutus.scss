@@ -10,8 +10,7 @@
             text-align: justify;
             margin-left: 20px;
             h2{
-                font-family: "sans";
-                font-size: 30px;
+                @include titulos;
             }
             p{
                 font-family: "sans-thin";
@@ -32,10 +31,12 @@
     }
 }
 .por-que-elegirnos{
-    font-family: "sans";
-    font-size: 30px;
+    @include titulos;
     margin: 70px;
     .elegirnos{
+        div{
+            @include parrafo;
+        }
         font-family: "sans-thin";
         font-weight: bold;
         font-size: 20px;

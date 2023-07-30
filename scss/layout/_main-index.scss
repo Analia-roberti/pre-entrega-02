@@ -1,7 +1,7 @@
 /* style Home*/
 
 .home{
-    background-color: #3b5d50;
+    background-color: $background-principal;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -15,7 +15,7 @@
 .home-shop{
     font-family:"sans";
     font-size: 1.875rem;
-    color: #FFF;
+    color: $color-text-principal;
     padding-top: 05px;
     .texto-principal{
         text-align: center;
@@ -25,13 +25,13 @@
     .texto-principal h2{
         font-family:"sans";
         text-align: center;
-        color:#FFF;
+        color:$color-text-principal; 
         font-size: 30px;
     }
     .texto-principal p{
         font-family:"sans-thin";
         text-align: center;
-        color:#FFF;
+        color: $color-text-principal;
         font-size: 20px;
     }
     .shop-button{

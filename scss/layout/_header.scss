@@ -1,16 +1,15 @@
 /*style header*/
 
 .header{
-    background-color: #3b5d50;
+    background-color:$background-principal;
     display: flex;
     flex-direction: row;
     color: #FFF;
     .navbar-brand{
-        background-color: #3b5d50;
-        display: flex;
+        background-color: $background-principal;
         flex-direction: row;
         align-items: left;
-        color: #FFF; 
+        color: $color-text-principal;
     }
     .loguin{
         width: 20px;

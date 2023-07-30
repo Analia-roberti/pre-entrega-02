@@ -1,0 +1,21 @@
+@mixin titulos{
+    font-family: "sans";
+    font-size: 30px;
+    color: rgb(58, 58, 58);
+}
+@mixin parrafo{
+    font-family: "sans-thin";
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+    font-weight: lighter;
+
+}
+@mixin card-sillon{
+    border: none;
+    border-radius: 20px;
+    height:25px;
+    width: 20px;
+    text-align:center;
+    font-family: "sans";
+    font-size: 20px;
+    }
