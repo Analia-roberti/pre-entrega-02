@@ -1,4 +1,4 @@
-# Malva Design. 
+# Malva Design.
 ## Tienda de diseño
 #### Bienvenido a la tienda online de Malva Design. Desarrollamos trabajos a medida en donde el diseño y la creatividad se adaptan en función a las necesidades y objetivos de cada proyecto.
 #### Este proyecto contiene: HTML, CSS y Bootstrap
