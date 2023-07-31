@@ -1,0 +1,36 @@
+/* style loguin*/
+
+.loguin{
+    font-family:"sans";
+    color:#3b5d50;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    .usuario{
+        margin-right: 300px;
+        margin-left: 20px;
+        gap: 3.125rem;
+        }
+        .button-enviar{
+            border-radius: 10px;
+            border-style: solid;
+            border-width: 1px;
+            background-color: none;
+            width: 70px;
+            height: 30px;
+            font-family: "sans";
+            font-size: 15px;
+            }
+    .contraseña{
+        margin-right: 100px;
+        margin-left: 20px;
+        border-radius: 30px;
+        gap: 3.125rem;
+            }
+
+
+    }
+    
+
+
+

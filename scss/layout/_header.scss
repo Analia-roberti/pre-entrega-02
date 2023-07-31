@@ -4,7 +4,7 @@
     background-color:$background-principal;
     display: flex;
     flex-direction: row;
-    color: #FFF;
+    color: $color-text-principal;
     .navbar-brand{
         background-color: $background-principal;
         flex-direction: row;
@@ -24,3 +24,4 @@
     }
     
 }
+

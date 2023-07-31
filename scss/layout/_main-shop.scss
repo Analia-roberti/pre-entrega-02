@@ -9,14 +9,9 @@
     margin-top: 50px;
     margin-bottom: 50px;
     }
-
 .sillones{
-   @extend .sillas;
-   
+    @extend .sillas;
     }
-    
-
-
 .caracteristicas-sillon{
     text-align: center;
     background-color: none;
@@ -26,8 +21,6 @@
     flex-direction: column;
     align-items: center;
     }
-
-
 .cards-sillon:hover{
     transform: scale(1.2);
     box-shadow: 13px 15px 37px rgb(124, 124, 124);

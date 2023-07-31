@@ -6,54 +6,30 @@
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
+    .contacto-texto{
+        margin-right: 100px;
+        margin-left: 20px;
+        }
+        .contacto-texto h2{
+            font-size: 30px;
+            font-family: "sans";
+        }
+        .contacto-texto p{
+            font-size: 20px;
+            font-family: "sans-thin";
+            font-weight: bold;
+        }
+        .mapa{
+            border-radius: 20px;
+        }
+    
     }
     
-.contacto-texto{
-    margin-right: 100px;
-    margin-left: 20px;
-    }
 
-.contacto-texto h2{
-    font-size: 30px;
-    font-family: "sans";
-}
 
-.contacto-texto p{
-    font-size: 20px;
-    font-family: "sans-thin";
-    font-weight: bold;
-}
 
-.mapa{
-    border-radius: 20px;
-}
+
+
+
+
     
-/* style loguin*/
-
-    .loguin{
-    font-family:"sans";
-    color:#3b5d50;
-    display: table-row;
-    }
-    
-    .usuario{
-    margin-right: 300px;
-    margin-left: 20px;
-    }
-
-    .contraseña{
-    margin-right: 100px;
-    margin-left: 20px;
-    border-radius: 30px;
-    }
-
-    .button-enviar{
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 1px;
-    background-color: none;
-    width: 70px;
-    height: 30px;
-    font-family: "sans";
-    font-size: 15px;
-    }
