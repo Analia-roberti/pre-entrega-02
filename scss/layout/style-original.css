@@ -1,14 +1,8 @@
-/*style header*/
-
-
 .header{
     background-color:$background-principal;
-    display: flex;
-    flex-direction: row;
     color: $color-text-principal;
     .navbar-brand{
         background-color: $background-principal;
-        flex-direction: row;
         align-items: left;
         color: $color-text-principal;
     }
@@ -17,9 +11,11 @@
         height: 20px;
         align-items: center;
         }
+    
     .carrito{
         width: 20px;
         height: 20px;
         align-items: center;
     }
+    
 }
