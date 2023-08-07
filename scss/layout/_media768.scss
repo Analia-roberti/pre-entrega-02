@@ -1,5 +1,27 @@
 
 @media (max-width:768px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .img-home{
+            width: 100%;
+            margin: 10px;
+            }
+    }
+    .home-shop{
+        .texto-principal{
+            margin: 50px;
+        }
+        .texto-principal h2{
+            font-size: 30px;
+        }
+        .texto-principal p{
+            font-size: 20px;
+        }
+        .shop-button{
+        }
+    
     .contacto{
         display: flex;
         flex-direction: column;
@@ -47,5 +69,6 @@
             }
         }
     }
+}
 }
 

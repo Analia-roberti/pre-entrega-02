@@ -40,13 +40,75 @@
         background-color:#F9BF29;
         width: 150px;
         height: 60px;
-        gap: 30px;
         font-family: "sans";
         font-weight: bold;
         font-size: 20px;
     }
-}
 
+    
+}
+/* style About Us*/
+.about-us{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 50px;
+    div{
+        .img-about2{
+            width:300px;
+        }
+    }
+    .conteinter-about{
+        section{ 
+            text-align: center;
+            text-align: justify;
+            padding-top: 60px;
+            h2{
+                @include titulos;
+            }
+            p{
+                font-family: "sans-thin";
+                font-size: 20px;
+            }
+        } 
+    }
+    div{
+        .img-about1{
+            width:300px;
+        }
+    }
+}
+.por-que-elegirnos{
+    @include titulos;
+    margin: 70px;
+    .elegirnos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 50px;
+    }
+        .elegirnos-1{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            div{
+                .img-elegirnos{
+                    width: 80px;
+                }
+            }
+        }
+        .elegirnos-2{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            div{
+                .img-elegirnos{
+                    width: 80px;
+                }
+            }
+        }
+    }
 
 
 

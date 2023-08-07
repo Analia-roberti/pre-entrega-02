@@ -5,11 +5,12 @@
     color: #FFF;
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
     .links{
         div{
             h3{
             text-align: left;
+            margin-left: 30px;
+            margin-top: 20px;
             font-size: 30px;
             font-family: "sans";
             }
@@ -18,7 +19,7 @@
             .redes{
                 list-style: none;
                 display: flex;
-                margin-left: 0px;
+                justify-content: left;
                 gap: 5px;
                 .img-redes{
                     width: 40px;
@@ -30,6 +31,7 @@
     .direccion-local{
         margin-right: 50px;
         margin-bottom: 20px;
+        margin-top: 20px;
         color: #FFF;
         .direccion-local h3{
             font-size: 30px;
